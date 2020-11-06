@@ -4,6 +4,12 @@
 $article-font-size ?= 1.1rem
 
 article
+    &.article
+    .title
+        font-size: 2.0em
+        font-weight: 700
+        letter-spacing: -1.4px;
+
     &.media
         .media-content
             color: $text-light
@@ -26,6 +32,10 @@ article
         .content
             word-wrap: break-word
             font-size: $article-font-size
+            line-height: 1.9em;
+            letter-spacing: -0.3px;
+            color: #5d686f;
+            margin-top: 20px;
 
             h1
                 font-size: 1.75em

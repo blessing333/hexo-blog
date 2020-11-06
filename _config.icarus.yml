@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/twitter_header_photo_2.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/favicon.png
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -191,11 +191,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Blessing
         # Author title
-        author_title: Your title
+        author_title:
         # Author's current location
-        location: Your location
+        location: South Korea
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -208,19 +208,19 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/blessing333'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+#            Twitter:
+#                icon: fab fa-twitter
+#                url: 'https://twitter.com'
+#            Dribbble:
+#                icon: fab fa-dribbble
+#                url: 'https://dribbble.com'
+#            RSS:
+#                icon: fas fa-rss
+#                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
